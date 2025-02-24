@@ -34,7 +34,7 @@ This chat system follows a **client-server model**, where:
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
-## 2️⃣ Internet Domain Sockets (`AF_UNIX`)
+## 2️⃣ Internet Domain Sockets (`AF_INET`)
 📍 **Used for:** Local IPC (Inter-Process Communication) on the same system.  
 📍 **How it works:** Uses a **file path** (`/tmp/chat_socket`) for communication.  
 
@@ -61,7 +61,7 @@ This chat system follows a **client-server model**, where:
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
-###👨‍💻 Contributors
+### 👨‍💻 Contributors
 - MALLUPEDDI VAMSI KRISHNA
 - NISHANTH ROY KEERTHI
 - KOLLA VIVEK SAGAR
