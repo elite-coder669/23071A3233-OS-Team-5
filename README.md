@@ -30,7 +30,7 @@ This chat system follows a **client-server model**, where:
    ./chat_client
 
 4. **Start Chatting**
-- ype a message in the client, and it appears on the server.
+- Type a message in the client, and it appears on the server.
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
@@ -57,7 +57,7 @@ This chat system follows a **client-server model**, where:
    ./chat_client_int
 
 4. **Start Chatting**
-- ype a message in the client, and it appears on the server.
+- Type a message in the client, and it appears on the server.
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
