@@ -7,8 +7,6 @@ This repository contains **two implementations** of a **simple chat application*
 - **Internet Domain Sockets (`AF_INET`)** → For communication over LAN/internet.
 
 ## 📜 Overview
----
-
 ## 1️⃣ UNIX Domain Sockets (`AF_UNIX`)
 📍 **Used for:** Local IPC (Inter-Process Communication) on the same system.  
 📍 **How it works:** Uses a **file path** (`/tmp/chat_socket`) for communication.  
