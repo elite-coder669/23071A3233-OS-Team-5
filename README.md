@@ -1,17 +1,17 @@
 # OS_ELA/ Team:5
 OS Unix Domain and Internet Domain Chat Applications
-# 📢 Chat Application using UNIX & Internet Domain Sockets
+# Chat Application using UNIX & Internet Domain Sockets
 
 This repository contains **two implementations** of a **simple chat application** using **IPC sockets**:
 - **UNIX Domain Sockets (`AF_UNIX`)** → For local inter-process communication.
 - **Internet Domain Sockets (`AF_INET`)** → For communication over LAN/internet.
 
-## 📜 Overview
-## 1️⃣ UNIX Domain Sockets (`AF_UNIX`)
+## Overview
+## 1.UNIX Domain Sockets (`AF_UNIX`)
 📍 **Used for:** Local IPC (Inter-Process Communication) on the same system.  
 📍 **How it works:** Uses a **file path** (`/tmp/chat_socket`) for communication.  
 
-### 🚀 Running the UNIX Domain Chat
+### Running the UNIX Domain Chat
 1. **Compile the server and client**
    ```bash
    gcc -o chat_server chat_server.c
@@ -34,11 +34,11 @@ This chat system follows a **client-server model**, where:
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
-## 2️⃣ Internet Domain Sockets (`AF_INET`)
+## 2.Internet Domain Sockets (`AF_INET`)
 📍 **Used for:** Local IPC (Inter-Process Communication) on the same system.  
 📍 **How it works:** Uses a **file path** (`/tmp/chat_socket`) for communication.  
 
-### 🚀 Running the Internet Domain Chat
+### Running the Internet Domain Chat
 1. **Compile the server and client**
    ```bash
    gcc -o chat_server_int chat_server_int.c
@@ -61,7 +61,7 @@ This chat system follows a **client-server model**, where:
 - Type a message in the server, and it appears on the client.
 - Type "exit" to close the chat.
 
-### 👨‍💻 Contributors
+### Contributors
 - MALLUPEDDI VAMSI KRISHNA
 - NISHANTH ROY KEERTHI
 - KOLLA VIVEK SAGAR
